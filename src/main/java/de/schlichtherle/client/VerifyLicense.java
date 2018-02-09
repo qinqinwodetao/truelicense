@@ -15,7 +15,6 @@ public class VerifyLicense {
 
 	public boolean verify(LicenseCommonParam licenseCommonParam) {
 		/************** 证书使用者端执行 ******************/
-
 		LicenseManager licenseManager = LicenseManagerHolder
 				.getLicenseManager(initLicenseParams(licenseCommonParam));
 		// 安装证书

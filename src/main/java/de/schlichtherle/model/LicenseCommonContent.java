@@ -10,11 +10,11 @@ public class LicenseCommonContent {
      */
     private  String issuedTime;
     /**
-     * license生效开始时间
+     * license生效时间
      */
     private  String notBefore;
     /**
-     * license生效结束时间
+     * license失效时间
      */
     private  String notAfter;
     /**

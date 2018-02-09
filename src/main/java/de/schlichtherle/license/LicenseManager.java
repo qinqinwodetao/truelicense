@@ -655,6 +655,11 @@ public class LicenseManager implements LicenseCreator, LicenseVerifier {
         }
     }
 
+    /**
+     * 添加EXTA属性校验，比如多MAC绑定
+     * @param content
+     * @throws LicenseContentException
+     */
     protected synchronized void verifyValidate(final LicenseContent content)
             throws LicenseContentException {
         validate(content);
@@ -679,7 +684,6 @@ public class LicenseManager implements LicenseCreator, LicenseVerifier {
                 }
             }
         }
-
     }
 
     //
